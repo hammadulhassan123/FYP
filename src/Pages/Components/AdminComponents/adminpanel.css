@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+    .sidebar {
+      position: fixed;
+      top: 1;
+      bottom: 1;
+      left: 0;
+     display: block;
+      padding: 20px;
+      overflow-x: hidden;
+      overflow-y: auto;
+      border: 1px rounded #ffff;
+      background-color: rgb(1, 1, 77);
+      color: azure;
+      height: 100vh;
+    }
+    .sidebar-link:hover {
+        background-color: slategrey;
+        color: #333;
+      }
+      
+    .main-content {
+      margin-left: 250px;
+    max-width: max-content;
+    min-width:min-content
+    }
+  }
+  
